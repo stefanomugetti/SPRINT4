@@ -1,0 +1,37 @@
+IDENTIFICADORES
+
+Tipos de Usuarios (id)
+5-Administrador
+6-Socio
+7-Mozo
+8-Bartender
+9-Bartender_Cerveza
+10-Cocinero
+
+
+Tipos de acciones (id)
+1-Login
+2-Alta
+3-Baja
+4-Modificacion
+
+Areas (id)
+11-Administracion
+12-Salon
+13-Barra_Vinos
+14-Barra_Cerveza
+15-Cocina
+16-Candy_Bar
+
+
+
+Otros identificadores:
+class EstadosUsuarios extends Model{
+    const Activo = 11;
+    const Baja = 12;
+}
+class EstadosPedidos extends Model{
+    const Espera = 11;
+    const Terminado = 12;
+    const Entregado = 13;
+}
